@@ -81,14 +81,14 @@ def parse_options(options):
     return result
 
 def help():
-    print('Wi-Fi Sender')
+    print('Net Sender')
     print('-m, --mode - you are [receiver] or [sender], receiver default')
     print('-a, --address - target ip address')
     print('-p, --port - target server port')
     print('-f, --file - set path to saved file, \'.\' default')
     print('-h, --help - shot this note and exit')
     print('')
-    print('python3 ./wifi_sender -m sender -a 192.168.0.20 -p 5555 file.txt')
-    print('python3 ./wifi_sender -m receiver')
+    print('python3 ./net_sender -m sender -a 192.168.0.20 -p 5555 file.txt')
+    print('python3 ./net_sender -m receiver')
 
 main(sys.argv[1:])
